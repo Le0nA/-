@@ -40,12 +40,12 @@ public:
             head = tail;
         }
     }
-    void pop_fort() {
+    void pop_front() {
     char x = head ->data;
     cout<<x;
     head = head ->next;
     }
-    void pop_bck(){
+    void pop_back(){
     char x = tail ->data;
     cout<<x;
     tail = tail ->prev;
